@@ -1,3 +1,3 @@
-leitura = open('arqtexto.txt', 'r')
-print((leitura.read()))
-leitura.close()
+leitura = open('arqtexto.txt', 'r') # Abrir arquivo txt
+print((leitura.read())) # Ler arquivo
+leitura.close() # Fechar leitura
